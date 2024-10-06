@@ -1,0 +1,13 @@
+apiVersion: enterprise.splunk.com/v4
+kind: Standalone
+metadata:
+  name: s1
+  finalizers:
+  - enterprise.splunk.com/delete-pvc
+spec:
+  replicas: 2
+# spec:
+#   etcVolumeStorageConfig:
+#     #storageCapacity: 10Gi
+#   varVolumeStorageConfig:
+#     storageCapacity: 10Gi
