@@ -5,7 +5,7 @@ metadata:
   finalizers:
   - enterprise.splunk.com/delete-pvc
 spec:
-  replicas: 2
+  replicas: 3
 # spec:
 #   etcVolumeStorageConfig:
 #     #storageCapacity: 10Gi
